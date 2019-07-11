@@ -1,22 +1,11 @@
 {
-  "name": "test-appservice-nodejs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "app-service-hello-world",
+  "description": "Simple Hello World Node.js sample for Azure App Service",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "author": "Microsoft",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nertim/test-appservice-nodejs.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nertim/test-appservice-nodejs/issues"
-  },
-  "homepage": "https://github.com/nertim/test-appservice-nodejs#readme",
-  "dependencies": {
-    "express": "^4.17.1"
+      "start": "node index.js"
   }
 }
